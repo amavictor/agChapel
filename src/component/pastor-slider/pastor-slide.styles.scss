@@ -1,0 +1,23 @@
+.slider{
+    width: 2000px;
+    height: 100%;
+    background-color: red;
+    height: 50vh;
+
+    .slider-inner{
+        margin: 5%;
+        height: 70%;
+        overflow: hidden;
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+
+        .item{
+            position: relative;
+            width: 400px;
+            height: 100%;
+            overflow: hidden;
+            background-color: red;
+        }
+    }
+}

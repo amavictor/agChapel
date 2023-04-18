@@ -4,6 +4,7 @@ import gsap from "gsap"
 import { Link } from "react-router-dom";
 import Pastor from "../../assets/pastor.png"
 import Play from "../../assets/playbutton.svg"
+import { useLenis } from "@studio-freight/react-lenis";
 
 export const Home = () => {
   const homeRef = useRef(null);
@@ -26,6 +27,7 @@ export const Home = () => {
     }, homeRef)
     return () => context.revert()
   }, []);
+
 
   return (
     <div className="home">

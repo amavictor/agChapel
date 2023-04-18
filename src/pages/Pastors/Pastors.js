@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useRef } from 'react';
 import { useEffect } from 'react';
 import { gsap } from "gsap";
+import { PastorSlider } from "../../component/pastor-slider/pastorSlider";
 
 
 export const Pastors = () => {
@@ -42,7 +43,7 @@ export const Pastors = () => {
 
       <div>
         <div>
-
+          <PastorSlider/>
         </div>
       </div>
     </div>
