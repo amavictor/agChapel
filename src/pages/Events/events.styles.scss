@@ -1,0 +1,42 @@
+.page-header-6 {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("https://scontent.fabb1-1.fna.fbcdn.net/v/t39.30808-6/334953189_746733623795034_3225257464387720232_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFhfdFR_IwPmGowAnrWLTyhjc1UZGFtwF2NzVRkYW3AXQyniFgG2HtRQhvI8hky1zO26M0zr-mpxNyvAYqixAe-&_nc_ohc=6bDP8v57vwgAX-tYJbx&_nc_zt=23&_nc_ht=scontent.fabb1-1.fna&oh=00_AfAYhrPpMjNH7pDkFI6ujXX0iT97O1IGprT-zXqyhhgQ1Q&oe=644154D7");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10%;
+
+
+    .line {
+        width: fit-content;
+        height: 8rem;
+        position: relative;
+        overflow: hidden;
+
+        h1 {
+            font-size: 7rem;
+            width: 70%;
+            color: white;
+            transform: translateY(20px);
+            margin-bottom: -50px;
+        }
+    }
+
+    .right {
+        height: 100%;
+        width: 300px;
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+
+}

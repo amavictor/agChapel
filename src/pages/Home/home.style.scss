@@ -1,0 +1,100 @@
+.home {
+    
+    .page-header-1 {
+        height: 100vh;
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)), url("https://scontent.fabb1-2.fna.fbcdn.net/v/t39.30808-6/337383092_609289124009207_2322177577448881430_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHi_FACcUUE-ISzIuolIRisMtLmisr2wQYy0uaKyvbBBrsKgoRBS_iK3mJMuQ7JzgA4t8gF7VsKoBHR01U8baa6&_nc_ohc=3n2yiGa5wxUAX86u2NW&_nc_zt=23&_nc_ht=scontent.fabb1-2.fna&oh=00_AfBlQmwN3omMa5d3SqL7MKFS4t_7Au0iooM_b1R67ijagQ&oe=643CA460");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 10%;
+
+
+        .line {
+            width: fit-content;
+            height: 8rem;
+            position: relative;
+            margin-bottom: -50px;
+
+            h1 {
+                font-weight: 450;
+                color: white;
+                font-size: 5rem;
+                transform: translateY(200px);
+            }
+        }
+
+        .line2 {
+            width: 1000px;
+            height: 10rem;
+            position: relative;
+            overflow: hidden;
+
+            h1 {
+                font-size: 7rem;
+                color: white;
+                position: absolute;
+                bottom: 0;
+                transform: translateY(200px);
+            }
+        }
+
+        .right {
+            height: 100%;
+            width: 300px;
+            position: absolute;
+            right: 0;
+            top: 0;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    section {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end !important;
+        padding: 10%;
+
+        .pastor-message {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            p {
+                color: var(--yellow);
+                font-size: 3rem;
+                width: 15%;
+                position: absolute;
+                left: 25%;
+                bottom: 15%;
+            }
+
+            .play-button {
+                position: absolute;
+                right: 24%;
+                transition: opacity .3s ease-in;
+
+                &:hover {
+                    opacity: 0.7;
+                    cursor: pointer;
+                }
+            }
+
+            .pastor {
+                object-fit: contain;
+                width: 60%;
+                height: 60%;
+            }
+
+
+        }
+    }
+}

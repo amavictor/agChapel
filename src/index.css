@@ -1,13 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gotham", sans-serif;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  overscroll-behavior: none;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* @font-face {
+  font-family: "Gotham";
+  src: url("./fonts/GothamBold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("./fonts/GothamLight.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("./fonts/GothamMedium.ttf");
+  font-weight: 500;
+} */
+:root{
+  --yellow:#FFD700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul,
+button,
+input {
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.2;
+  color: white;
+}
+
+.page-enter {
+  opacity: 0;
+  transition: opacity 400ms;
+  transition-delay: 600ms;
+}
+
+.page-enter-active {
+  opacity: 1;
+}
+
+.page-exit {
+  opacity: 1;
+}
+
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 400ms;
 }

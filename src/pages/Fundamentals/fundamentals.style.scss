@@ -1,0 +1,104 @@
+.fundamentals {
+    .page-header-2 {
+        height: 100vh;
+        background-color: white;
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10%;
+
+        .line {
+            width: fit-content;
+            height: 16rem;
+            position: relative;
+            overflow: hidden;
+
+            h1 {
+                font-size: 7rem;
+                width: 70%;
+                color: black;
+                transform: translateY(250px);
+            }
+        }
+
+    }
+
+    .right {
+        height: 100%;
+        width: 300px;
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .mission-section {
+        background-color: white;
+        padding: 10%;
+
+        h2,
+        p {
+            color: black;
+        }
+
+        .mission-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5%;
+
+            .mission-vission {
+
+                .mission,
+                .vission {
+                    width: 50%;
+                    margin-bottom: 5%;
+                    justify-self: flex-end;
+
+                }
+
+                h2 {
+                    font-size: 3rem;
+                    margin-bottom: 1rem;
+                }
+
+                p {
+                    font-size: 1.3rem;
+
+                }
+            }
+
+            img {
+                height: 40rem;
+
+            }
+        }
+
+    }
+}
+
+.what-we-do-section{
+    background-color: white;
+    padding: 0 10% 10% 10%;
+    .core-values-container {
+        h1{
+            font-size: 4rem;
+            color: black;
+            margin-bottom: 5%;
+        }
+        .core-values {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 14%;
+        }
+
+    }
+
+}

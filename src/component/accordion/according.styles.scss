@@ -1,0 +1,32 @@
+.accordion-container{
+    background-color: black;
+    width: 35%;
+    height: 20%;
+    padding: 3%;
+    margin: 2rem;
+    h2,p{
+        color: white !important;
+        text-align: center;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .accordion-details{
+        margin: 2% auto;
+        display: none;
+
+    }
+
+    .white-bar{
+        background-color: white !important;
+        width: 4rem;
+        height: 0.4rem;
+        border-radius: 10px;
+        margin: 1.5rem auto 0.5rem auto;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
